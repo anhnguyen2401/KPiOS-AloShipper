@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46B4C141E1BF92E00CD2EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B4C131E1BF92E00CD2EEE /* AppDelegate.swift */; };
+		A46B4C161E1BF92E00CD2EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B4C151E1BF92E00CD2EEE /* ViewController.swift */; };
+		A46B4C191E1BF92E00CD2EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46B4C171E1BF92E00CD2EEE /* Main.storyboard */; };
+		A46B4C1B1E1BF92E00CD2EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B4C1A1E1BF92E00CD2EEE /* Assets.xcassets */; };
+		A46B4C1E1E1BF92E00CD2EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46B4C1C1E1BF92E00CD2EEE /* LaunchScreen.storyboard */; };
+		A47E65B41E1D5E3100B5B84B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47E65B31E1D5E3100B5B84B /* GoogleService-Info.plist */; };
+		A4889AD01E200ADC00BA7310 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4889ACF1E200ADC00BA7310 /* AuthProvider.swift */; };
+		A4889AD31E200AEF00BA7310 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4889AD21E200AEF00BA7310 /* DBProvider.swift */; };
+		A4889AD51E200B0000BA7310 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4889AD41E200B0000BA7310 /* Constants.swift */; };
+		A4889AD71E200B1800BA7310 /* AloHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4889AD61E200B1800BA7310 /* AloHandle.swift */; };
+		A4947A221E203DB8007A7D13 /* ViewPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4947A211E203DB8007A7D13 /* ViewPurple.swift */; };
+		A4947A241E203DCB007A7D13 /* ViewPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4947A231E203DCB007A7D13 /* ViewPink.swift */; };
+		A4947A261E203E8A007A7D13 /* AloHandleShipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4947A251E203E8A007A7D13 /* AloHandleShipper.swift */; };
+		A4FD7A201E1C098E00C98FCB /* ViewYellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A1F1E1C098E00C98FCB /* ViewYellow.swift */; };
+		A4FD7A221E1C09B500C98FCB /* ViewOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A211E1C09B500C98FCB /* ViewOrange.swift */; };
+		A4FD7A241E1C09C300C98FCB /* ViewGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A231E1C09C300C98FCB /* ViewGreen.swift */; };
+		A4FD7A261E1C09CE00C98FCB /* ViewBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A251E1C09CE00C98FCB /* ViewBlue.swift */; };
+		EDDD6BEE9628946A49B2C7FF /* Pods_Anh_AloShipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2C3C8C94C783F057E62709 /* Pods_Anh_AloShipper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33260101E964BB39714B0CB8 /* Pods-Anh-AloShipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anh-AloShipper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anh-AloShipper/Pods-Anh-AloShipper.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2C3C8C94C783F057E62709 /* Pods_Anh_AloShipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anh_AloShipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D3B9313F9562083A40118F /* Pods-Anh-AloShipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anh-AloShipper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anh-AloShipper/Pods-Anh-AloShipper.release.xcconfig"; sourceTree = "<group>"; };
+		A46B4C101E1BF92E00CD2EEE /* Anh-AloShipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anh-AloShipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B4C131E1BF92E00CD2EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A46B4C151E1BF92E00CD2EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A46B4C181E1BF92E00CD2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46B4C1A1E1BF92E00CD2EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A46B4C1D1E1BF92E00CD2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A46B4C1F1E1BF92E00CD2EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E65B31E1D5E3100B5B84B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4889ACF1E200ADC00BA7310 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		A4889AD21E200AEF00BA7310 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		A4889AD41E200B0000BA7310 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4889AD61E200B1800BA7310 /* AloHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloHandle.swift; sourceTree = "<group>"; };
+		A4947A211E203DB8007A7D13 /* ViewPurple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPurple.swift; sourceTree = "<group>"; };
+		A4947A231E203DCB007A7D13 /* ViewPink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPink.swift; sourceTree = "<group>"; };
+		A4947A251E203E8A007A7D13 /* AloHandleShipper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloHandleShipper.swift; sourceTree = "<group>"; };
+		A4FD7A1F1E1C098E00C98FCB /* ViewYellow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewYellow.swift; path = ../ViewYellow.swift; sourceTree = "<group>"; };
+		A4FD7A211E1C09B500C98FCB /* ViewOrange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewOrange.swift; path = ../ViewOrange.swift; sourceTree = "<group>"; };
+		A4FD7A231E1C09C300C98FCB /* ViewGreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGreen.swift; sourceTree = "<group>"; };
+		A4FD7A251E1C09CE00C98FCB /* ViewBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBlue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46B4C0D1E1BF92E00CD2EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD6BEE9628946A49B2C7FF /* Pods_Anh_AloShipper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44076172FD7941E665539169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33260101E964BB39714B0CB8 /* Pods-Anh-AloShipper.debug.xcconfig */,
+				81D3B9313F9562083A40118F /* Pods-Anh-AloShipper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A46B4C071E1BF92E00CD2EEE = {
+			isa = PBXGroup;
+			children = (
+				A46B4C121E1BF92E00CD2EEE /* Anh-AloShipper */,
+				A46B4C111E1BF92E00CD2EEE /* Products */,
+				44076172FD7941E665539169 /* Pods */,
+				D969F630E088C65098C485F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A46B4C111E1BF92E00CD2EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46B4C101E1BF92E00CD2EEE /* Anh-AloShipper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46B4C121E1BF92E00CD2EEE /* Anh-AloShipper */ = {
+			isa = PBXGroup;
+			children = (
+				A4889ACC1E1D86A900BA7310 /* Model */,
+				A46B4C271E1BF96600CD2EEE /* Controller */,
+				A46B4C251E1BF93D00CD2EEE /* View */,
+				A46B4C261E1BF94800CD2EEE /* Support */,
+			);
+			path = "Anh-AloShipper";
+			sourceTree = "<group>";
+		};
+		A46B4C251E1BF93D00CD2EEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A46B4C1C1E1BF92E00CD2EEE /* LaunchScreen.storyboard */,
+				A46B4C171E1BF92E00CD2EEE /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A46B4C261E1BF94800CD2EEE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A47E65B31E1D5E3100B5B84B /* GoogleService-Info.plist */,
+				A46B4C1F1E1BF92E00CD2EEE /* Info.plist */,
+				A46B4C131E1BF92E00CD2EEE /* AppDelegate.swift */,
+				A46B4C1A1E1BF92E00CD2EEE /* Assets.xcassets */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		A46B4C271E1BF96600CD2EEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46B4C151E1BF92E00CD2EEE /* ViewController.swift */,
+				A4FD7A211E1C09B500C98FCB /* ViewOrange.swift */,
+				A4FD7A1F1E1C098E00C98FCB /* ViewYellow.swift */,
+				A4FD7A231E1C09C300C98FCB /* ViewGreen.swift */,
+				A4FD7A251E1C09CE00C98FCB /* ViewBlue.swift */,
+				A4947A211E203DB8007A7D13 /* ViewPurple.swift */,
+				A4947A231E203DCB007A7D13 /* ViewPink.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4889ACC1E1D86A900BA7310 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4889ACF1E200ADC00BA7310 /* AuthProvider.swift */,
+				A4889AD21E200AEF00BA7310 /* DBProvider.swift */,
+				A4889AD41E200B0000BA7310 /* Constants.swift */,
+				A4889AD61E200B1800BA7310 /* AloHandle.swift */,
+				A4947A251E203E8A007A7D13 /* AloHandleShipper.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D969F630E088C65098C485F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C3C8C94C783F057E62709 /* Pods_Anh_AloShipper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46B4C0F1E1BF92E00CD2EEE /* Anh-AloShipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46B4C221E1BF92E00CD2EEE /* Build configuration list for PBXNativeTarget "Anh-AloShipper" */;
+			buildPhases = (
+				E3EDE1387986D30BCC35F79D /* [CP] Check Pods Manifest.lock */,
+				A46B4C0C1E1BF92E00CD2EEE /* Sources */,
+				A46B4C0D1E1BF92E00CD2EEE /* Frameworks */,
+				A46B4C0E1E1BF92E00CD2EEE /* Resources */,
+				D7F170802F403593E098D1E1 /* [CP] Embed Pods Frameworks */,
+				2B4920AB732446621CDF5209 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anh-AloShipper";
+			productName = "Anh-AloShipper";
+			productReference = A46B4C101E1BF92E00CD2EEE /* Anh-AloShipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46B4C081E1BF92E00CD2EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nguyen Anh";
+				TargetAttributes = {
+					A46B4C0F1E1BF92E00CD2EEE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = LG24U85U95;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A46B4C0B1E1BF92E00CD2EEE /* Build configuration list for PBXProject "Anh-AloShipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A46B4C071E1BF92E00CD2EEE;
+			productRefGroup = A46B4C111E1BF92E00CD2EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46B4C0F1E1BF92E00CD2EEE /* Anh-AloShipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46B4C0E1E1BF92E00CD2EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B4C1E1E1BF92E00CD2EEE /* LaunchScreen.storyboard in Resources */,
+				A47E65B41E1D5E3100B5B84B /* GoogleService-Info.plist in Resources */,
+				A46B4C1B1E1BF92E00CD2EEE /* Assets.xcassets in Resources */,
+				A46B4C191E1BF92E00CD2EEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4920AB732446621CDF5209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anh-AloShipper/Pods-Anh-AloShipper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F170802F403593E098D1E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anh-AloShipper/Pods-Anh-AloShipper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3EDE1387986D30BCC35F79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46B4C0C1E1BF92E00CD2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FD7A261E1C09CE00C98FCB /* ViewBlue.swift in Sources */,
+				A4947A221E203DB8007A7D13 /* ViewPurple.swift in Sources */,
+				A4889AD31E200AEF00BA7310 /* DBProvider.swift in Sources */,
+				A4FD7A241E1C09C300C98FCB /* ViewGreen.swift in Sources */,
+				A46B4C161E1BF92E00CD2EEE /* ViewController.swift in Sources */,
+				A4FD7A201E1C098E00C98FCB /* ViewYellow.swift in Sources */,
+				A4947A241E203DCB007A7D13 /* ViewPink.swift in Sources */,
+				A4889AD71E200B1800BA7310 /* AloHandle.swift in Sources */,
+				A4947A261E203E8A007A7D13 /* AloHandleShipper.swift in Sources */,
+				A4889AD01E200ADC00BA7310 /* AuthProvider.swift in Sources */,
+				A4FD7A221E1C09B500C98FCB /* ViewOrange.swift in Sources */,
+				A4889AD51E200B0000BA7310 /* Constants.swift in Sources */,
+				A46B4C141E1BF92E00CD2EEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A46B4C171E1BF92E00CD2EEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46B4C181E1BF92E00CD2EEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A46B4C1C1E1BF92E00CD2EEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46B4C1D1E1BF92E00CD2EEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A46B4C201E1BF92E00CD2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46B4C211E1BF92E00CD2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A46B4C231E1BF92E00CD2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33260101E964BB39714B0CB8 /* Pods-Anh-AloShipper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG24U85U95;
+				INFOPLIST_FILE = "Anh-AloShipper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nguyenanh.Anh-AloShipper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A46B4C241E1BF92E00CD2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D3B9313F9562083A40118F /* Pods-Anh-AloShipper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG24U85U95;
+				INFOPLIST_FILE = "Anh-AloShipper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nguyenanh.Anh-AloShipper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46B4C0B1E1BF92E00CD2EEE /* Build configuration list for PBXProject "Anh-AloShipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B4C201E1BF92E00CD2EEE /* Debug */,
+				A46B4C211E1BF92E00CD2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46B4C221E1BF92E00CD2EEE /* Build configuration list for PBXNativeTarget "Anh-AloShipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B4C231E1BF92E00CD2EEE /* Debug */,
+				A46B4C241E1BF92E00CD2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A46B4C081E1BF92E00CD2EEE /* Project object */;
+}
